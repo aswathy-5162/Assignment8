@@ -1,0 +1,179 @@
+/*Author:Aswathy P
+ Date: 27/12/2021
+ */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+/* content started*/
+
+.content {
+
+	   background-color: #333;
+	   padding:90px;
+	   color:#fff;
+	   font-size:20px;
+	   text-align: center;
+
+}
+ .content a{
+       
+ 	   border:2px solid #00f;
+ 	   padding: 15px;
+ 	   font-size: 20px;
+ 	   text-decoration: none;
+ 	   display: inline-flex;
+ 	   color: #00f;
+ 	   border-radius: 7px;
+
+ }
+ .content p{
+ 	margin-bottom: 20px;
+ }
+ .content a:hover{
+ 	background-color: #00f;
+ 	color: #fff;
+ }
+
+ .content1 {
+ 	background-color: #fff;
+ 	padding: 90px;
+ 	color: #333;
+ 	text-align: center;
+ 	font-size: 25px;
+ }
+
+   /* content ended*/
+
+/*main  started*/
+
+ .main{
+
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	background-color: #333;
+ 	text-align: center;
+ 	padding:40px;
+ }
+
+ .sub {
+    
+    display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
+ 	background-color: #fff;
+	width: 30%;
+	padding:40px;
+	border: solid 10px #333;
+
+}
+
+.sub img{
+     
+      width:100%;
+      display: flex;
+
+    }
+
+
+    /*main ended*/
+
+/*footer started*/
+
+.foot
+  {
+  	color: #fff;
+	/*margin-bottom: 50px;*/
+	font-size: 15px;
+	
+	
+ }
+
+ .foot{
+ 	display: flex;
+ 	flex-direction: column;
+
+ }
+
+.foot1{
+
+	font-size: 20px;
+	background-color: #0d6efd;
+	width:100%;
+	padding:90px;
+	color: #fff;
+	height: auto;
+	text-align: center;
+	
+}
+
+.foot2{
+	font-size: 20px;
+	background-color: #333;
+	width:100%;
+	padding:90px;
+	color: #000;
+	height: auto;
+	text-align: center;
+}
+
+/*footer ended*/
+@media only screen and (max-width: 576px)
+{
+
+
+.content{
+	padding: 20px;
+}
+
+   .heading h1{
+
+        text-align: center;
+         font-size:15px;
+   }
+   .content1{
+
+   	    width:100%;
+	    padding:20px;
+	    text-align: center;
+	    font-size:15px;
+   }
+.main{
+
+	display: block;
+}
+   .main{
+
+   	font-size: 20px;	
+	padding: 10px;
+    width: 100%;
+ }
+.sub{
+	padding:5px;
+	width: 70%;
+	margin: 40px;
+}
+
+.foot{  
+    height:60vh;
+}
+.foot1{
+
+	font-size:20px;
+	width:100%;
+	height: 50vh;
+	padding: 20px;
+}
+
+.foot2{
+	font-size:20px;
+	width:100%;
+	height: 50vh;
+	padding: 20px;
+}
+
+}
+
